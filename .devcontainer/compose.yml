@@ -2,7 +2,6 @@ services:
   devcontainer:
     build:
       context: .
-    env_file: .env
     shm_size: '2gb'
     volumes:
       - ../..:/workspaces:rw,cached
