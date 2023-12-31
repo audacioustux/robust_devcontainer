@@ -8,4 +8,7 @@ g Galaxy S10" -e WEB_VNC=true --device /dev/kvm --name android-container budtmo/
 
 # connect emulator to adb
 adb connect localhost:5555
+
+# example installation of .apk
+adb -e install "Calculator_8.4.1 (520193683)_Apkpure.apk"
 ```
