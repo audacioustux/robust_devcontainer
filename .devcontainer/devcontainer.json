@@ -32,7 +32,8 @@
 		},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {},
 		"ghcr.io/audacioustux/devcontainers/common-utils-extras:1": {},
-		"ghcr.io/audacioustux/devcontainers/taskfile:1": {}
+		"ghcr.io/audacioustux/devcontainers/taskfile:1": {},
+		"ghcr.io/NordcomInc/devcontainer-features/android-sdk:1": {}
 	},
 	"postCreateCommand": ".devcontainer/scripts/post-create.sh",
 	"updateContentCommand": ".devcontainer/scripts/update.sh",
